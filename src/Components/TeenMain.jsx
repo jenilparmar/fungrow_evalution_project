@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ProjectCategory from "./ProjectCategory";
+
 export default function TeenMain() {
   gsap.registerPlugin(ScrollTrigger);
   useGSAP(() => {
@@ -187,6 +188,7 @@ export default function TeenMain() {
           </div>
         </div>
         <ProjectCategory/>
+ 
       </main>
     </>
   );
