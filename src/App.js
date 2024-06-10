@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Teen from "./Components/Teen";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ 
+ <>
+<div className="h-screen w-screen overflow-x-hidden" style={{
+            backgroundImage:"url(https://iili.io/Jy5f3hB.png)",
+            backgroundPosition:"50% 50%",
+            backgroundRepeat:"no-repeat",
+            backgroundSize:"350px",
+        }}>
+
+ <Teen/>
+</div>
+ </>   
+  
   );
 }
 
