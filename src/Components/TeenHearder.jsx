@@ -30,7 +30,7 @@ export default function TeenHearder() {
     })
   return (
     <>
-      <header >
+      <header className="h-fit">
         <nav className="nav flex flex-row bg-gray-900 sm:p-10 w-screen justify-between p-2 h-14">
           <div
             className="logo w-28 h-10 self-center  bg-transparent"

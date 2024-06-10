@@ -1,17 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html{
-    overflow-y: hidden;
-}
+
 .c1{
     height: 70vh;
 }
 .c3{
-    position: absolute;
-    top: 52em;
+    position: relative;
+    top: 5em;
 }
-@media only screen and (min-width: 600px) {
+main{
+    position: absolute;
+    top: 36em;
+    height: 185vh;
+}
+/* @media only screen and (min-width: 600px) {
    .c1{
     height: 100vh;
    }
@@ -28,4 +31,4 @@ html{
     top: 1em;
    }
 
-  }
+  } */
